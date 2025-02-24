@@ -19,6 +19,10 @@
     src: url("../fonts/VerticalSans-CircleDot.woff2");
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .header {
     .title {
         margin-top: 16px;
@@ -49,6 +53,7 @@
         width: 100%;
         height: 400px;
         padding: 16px;
+        resize: vertical;
         font-family: VerticalSans, sans-serif;
         font-size: 30px;
     }
